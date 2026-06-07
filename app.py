@@ -10,6 +10,62 @@ st.set_page_config(
     layout="wide"
 )
 
+# ESTILOS VISUALES
+st.markdown(
+    """
+    <style>
+    .main {
+        background-color: #f7f9fc;
+    }
+
+    h1 {
+        color: #1f4e79;
+        font-weight: 700;
+    }
+
+    h2, h3 {
+        color: #243b53;
+    }
+
+    [data-testid="stSidebar"] {
+        background-color: #eef3f8;
+    }
+
+    [data-testid="stMetric"] {
+        background-color: white;
+        padding: 15px;
+        border-radius: 12px;
+        border: 1px solid #d9e2ec;
+        box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.05);
+    }
+
+    .stTabs [data-baseweb="tab-list"] {
+        gap: 8px;
+    }
+
+    .stTabs [data-baseweb="tab"] {
+        background-color: #e6edf5;
+        border-radius: 10px 10px 0px 0px;
+        padding: 10px 18px;
+    }
+
+    .stTabs [aria-selected="true"] {
+        background-color: #1f77b4;
+        color: white;
+    }
+
+    div[data-testid="stInfo"] {
+        border-radius: 10px;
+    }
+
+    div[data-testid="stDataFrame"] {
+        border-radius: 10px;
+    }
+    </style>
+    """,
+    unsafe_allow_html=True
+)
+
 st.title("Portal de Precios de Supermercados en Uruguay")
 
 st.markdown(
