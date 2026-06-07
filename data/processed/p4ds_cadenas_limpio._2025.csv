@@ -5211,23 +5211,6 @@ Dic25,Cuidado Personal,"Toallitas Femeninas Ladysoft Basica, 16 us.",Red Market,
 Dic25,Cuidado Personal,"Toallitas Femeninas Ladysoft Basica, 16 us.",San Roque,204.0,False
 Dic25,Cuidado Personal,"Toallitas Femeninas Ladysoft Basica, 16 us.",Ta - Ta,156.0,False
 Dic25,Cuidado Personal,"Toallitas Femeninas Ladysoft Basica, 16 us.",Tienda Inglesa,163.0,False
-Dic25,Establecimientos Relevados,Desconocido,Devoto,23.0,False
-Dic25,Establecimientos Relevados,Desconocido,Devoto Express,36.0,False
-Dic25,Establecimientos Relevados,Desconocido,Disco,30.0,False
-Dic25,Establecimientos Relevados,Desconocido,El Clon,16.0,False
-Dic25,Establecimientos Relevados,Desconocido,El Dorado,75.0,False
-Dic25,Establecimientos Relevados,Desconocido,Farmaglobal,10.0,False
-Dic25,Establecimientos Relevados,Desconocido,Farmashop,173.0,False
-Dic25,Establecimientos Relevados,Desconocido,Frog,22.0,False
-Dic25,Establecimientos Relevados,Desconocido,Kinko,28.0,False
-Dic25,Establecimientos Relevados,Desconocido,Macro,8.0,False
-Dic25,Establecimientos Relevados,Desconocido,Micro Macro,7.0,False
-Dic25,Establecimientos Relevados,Desconocido,Pigalle,18.0,False
-Dic25,Establecimientos Relevados,Desconocido,Red Expres,59.0,False
-Dic25,Establecimientos Relevados,Desconocido,Red Market,6.0,False
-Dic25,Establecimientos Relevados,Desconocido,San Roque,32.0,False
-Dic25,Establecimientos Relevados,Desconocido,Ta - Ta,86.0,False
-Dic25,Establecimientos Relevados,Desconocido,Tienda Inglesa,19.0,False
 Dic25,Frutas Y Verduras,"Banana Brasil, 1 kg.",Devoto,69.0,True
 Dic25,Frutas Y Verduras,"Banana Brasil, 1 kg.",Devoto Express,71.0,True
 Dic25,Frutas Y Verduras,"Banana Brasil, 1 kg.",Disco,69.0,True
@@ -24239,7 +24222,6 @@ Ene25,Frutas Y Verduras,"Manzana Red Deliciosa, 1 kg.",Desconocido,144.0,True
 May25,Alimentos Y Bebidas,Arvejas en conserva Cololó Lata 380 grs.,Desconocido,46.0,False
 Sep25,Cuidado Personal,"Pañales Huggies Primeros 100 Dias Pequeño, 40 us.",Desconocido,648.56,False
 Jul25,Alimentos Y Bebidas,margarina con sal Adorita (envase 250 grs.),Desconocido,52.0,True
-Dic25,Establecimientos Relevados,Desconocido,Desconocido,36.0,False
 Mar25,Cuidado Personal,Alcohol en gel Bioset 250 ml.,Desconocido,129.0,False
 Abr25,Frutas Y Verduras,"Banana Ecuador, 1 kg.",Desconocido,115.0,True
 Mar25,Alimentos Y Bebidas,Dulce de membrillo Los Nietitos Envase 400 grs.,Desconocido,73.0,False
@@ -24276,7 +24258,6 @@ Mar25,Alimentos Y Bebidas,Queso rallado Milky Paquete 80 grs.,Desconocido,114.0,
 May25,Frutas Y Verduras,"Manzana Granny Smith, 1 kg.",Desconocido,149.0,True
 Abr25,Alimentos Y Bebidas,Harina trigo común 0000 Marca Propia Paquete 1 kg.,Desconocido,59.0,True
 Mar25,Cuidado Personal,Champú Sedal Envase 350 ml.,Desconocido,232.0,False
-Dic25,Establecimientos Relevados,Desconocido,Desconocido,16.0,False
 May25,Cuidado Personal,Jabón de tocador Rexona Unidad 125 grs.,Desconocido,65.09,False
 Nov25,Alimentos Y Bebidas,Dulce de membrillo Los Nietitos Envase 400 grs.,Desconocido,77.0,False
 Oct25,Cuidado Personal,"Pañales Huggies Primeros 100 Dias Pequeño, 40 us.",Desconocido,615.0,False
@@ -24871,7 +24852,6 @@ Feb25,Limpieza Del Hogar,Jabón para ropa en barra Nevex Unidad 200 grs.,Descono
 Ago25,Alimentos Y Bebidas,"Pulpa de tomate De Ley Envase 1,020 lt.",Desconocido,81.0,True
 Sep25,Alimentos Y Bebidas,Mayonesa común Uruguay Envase 500 grs.,Desconocido,96.0,False
 Mar25,Cuidado Personal,"Champú Pantene, 400 ml.",Desconocido,475.0,True
-Dic25,Establecimientos Relevados,Desconocido,Desconocido,22.0,False
 Mar25,Alimentos Y Bebidas,Pulpa de tomate Conaprole Envase 1 lt.,Desconocido,104.65,True
 Ago25,Cuidado Personal,Champú Suave Envase 930 ml.,Desconocido,174.0,False
 Abr25,Alimentos Y Bebidas,Dulce de leche Los Nietitos Envase 1 kg.,Desconocido,237.5,True
@@ -25523,7 +25503,6 @@ Ene25,Cuidado Personal,Desodorante en aerosol Axe Musk Envase 113 grs.,Devoto Ex
 Sep25,Alimentos Y Bebidas,"Pulpa de tomate De Ley Envase 1,020 lt.",Red Market,670.0,True
 Mar25,Alimentos Y Bebidas,Yerba mate común Del Cebador Paquete1 kg.,Red Expres,1740.0,True
 Dic25,Alimentos Y Bebidas,Harina de maíz Puritas Paquete 450 grs.,Tienda Inglesa,470.0,True
-Dic25,Establecimientos Relevados,Desconocido,Disco,300.0,False
 Sep25,Cuidado Personal,"Repelente aerosol Off! Larga Duración, 170 cm3",Red Expres,4530.0,False
 Mar25,Alimentos Y Bebidas,Helado familiar Conaprole Envase 1lt.,El Dorado,2799.0,False
 Sep25,Alimentos Y Bebidas,Harina de maíz Puritas Paquete 450 grs.,El Dorado,399.0,True
@@ -25686,7 +25665,6 @@ Abr25,Alimentos Y Bebidas,Fideos secos al huevo Las Acacias Paquete 500 grs.,Red
 Abr25,Alimentos Y Bebidas,Queso rallado Artesano Paquete 80 grs.,Tienda Inglesa,1300.0,False
 Jul25,Cuidado Personal,repelente de mosquitos crema Off! (200 grs.),Tienda Inglesa,4990.0,False
 Dic25,Alimentos Y Bebidas,Carne picada vacuna Con Hasta 5% de grasa 1 kg.,Red Expres,3990.0,True
-Dic25,Establecimientos Relevados,Desconocido,Red Expres,590.0,False
 Oct25,Cuidado Personal,Papel higiénico hoja simple Elite 4 rollos de 30 mts.,San Roque,1030.0,False
 May25,Cuidado Personal,Champú Suave Envase 930 ml.,Ta - Ta,1890.0,False
 Oct25,Limpieza Del Hogar,Hipoclorito de sodio Sello Rojo Botella 1 lt.,Red Market,720.0,False

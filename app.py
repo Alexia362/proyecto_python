@@ -14,51 +14,88 @@ st.set_page_config(
 st.markdown(
     """
     <style>
-    .main {
-        background-color: #f7f9fc;
+    /* Fondo general */
+    [data-testid="stAppViewContainer"] {
+        background-color: #f4f9ff;
+        color: #1f2933;
     }
 
+    /* Contenedor principal */
+    .block-container {
+        padding-top: 2rem;
+        padding-bottom: 2rem;
+    }
+
+    /* Sidebar */
+    [data-testid="stSidebar"] {
+        background-color: #eaf4ff;
+    }
+
+    [data-testid="stSidebar"] * {
+        color: #1f2933 !important;
+    }
+
+    /* Títulos */
     h1 {
-        color: #1f4e79;
+        color: #0b4f8a !important;
         font-weight: 700;
     }
 
     h2, h3 {
-        color: #243b53;
+        color: #1f5f99 !important;
+        font-weight: 600;
     }
 
-    [data-testid="stSidebar"] {
-        background-color: #eef3f8;
+    p, label, span, div {
+        color: #1f2933;
     }
 
+    /* Métricas */
     [data-testid="stMetric"] {
-        background-color: white;
-        padding: 15px;
+        background-color: #ffffff;
+        border: 1px solid #cfe3f5;
         border-radius: 12px;
-        border: 1px solid #d9e2ec;
-        box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.05);
+        padding: 14px;
+        box-shadow: 0px 2px 5px rgba(31, 95, 153, 0.08);
     }
 
+    [data-testid="stMetric"] * {
+        color: #1f2933 !important;
+    }
+
+    /* Pestañas */
     .stTabs [data-baseweb="tab-list"] {
         gap: 8px;
     }
 
     .stTabs [data-baseweb="tab"] {
-        background-color: #e6edf5;
-        border-radius: 10px 10px 0px 0px;
-        padding: 10px 18px;
+        background-color: #e3f2fd;
+        border-radius: 8px 8px 0px 0px;
+        padding: 8px 14px;
+    }
+
+    .stTabs [data-baseweb="tab"] p {
+        color: #0b4f8a !important;
+        font-weight: 500;
     }
 
     .stTabs [aria-selected="true"] {
-        background-color: #1f77b4;
-        color: white;
+        background-color: #bbdefb;
+        border-bottom: 3px solid #0b4f8a;
     }
 
-    div[data-testid="stInfo"] {
+    .stTabs [aria-selected="true"] p {
+        color: #0b4f8a !important;
+        font-weight: 700;
+    }
+
+    /* Cajas de información */
+    [data-testid="stInfo"] {
         border-radius: 10px;
     }
 
-    div[data-testid="stDataFrame"] {
+    /* Dataframes */
+    [data-testid="stDataFrame"] {
         border-radius: 10px;
     }
     </style>
@@ -87,8 +124,17 @@ def cargar_datos():
 
     datos["Grupo"] = datos["Grupo"].astype(str).str.strip().str.title()
     datos["Super"] = datos["Super"].astype(str).str.strip().str.title()
-    datos["Producto"] = datos["Producto"].astype(str).str.strip()
+    datos["Producto"] = (
+        datos["Producto"]
+        .astype(str)
+        .str.replace("\xa0", " ", regex=False)
+        .str.replace(r"\s+", " ", regex=True)
+        .str.strip()
+    )
 
+    datos = datos[
+        datos["Grupo"] != "Establecimientos Relevados"
+    ].copy()
     return datos
 
 
